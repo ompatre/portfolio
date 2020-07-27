@@ -465,6 +465,7 @@ a { color: white; }
 }
 
 .contact .logos{
+    font-size: 2em;
     /* border: solid red; */
     text-align: center;
     width: 100%;
@@ -473,8 +474,12 @@ a { color: white; }
     display: flex;
     padding-top: 40px;
     padding-bottom: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
 }
-
+.contact a{
+    margin: 5px;
+}
 .contact .button{
     display: flex;
     margin-top: 80px;
@@ -486,13 +491,6 @@ a { color: white; }
     text-align: center;
 }
 
-.insta{
-    background-color: rgb(228, 63, 228);
-}
-
-.insta :hover{
-    background-color: rgb(97, 10, 97);
-}
 .example_b {
     color: #fff !important;
     text-transform: uppercase;
@@ -520,5 +518,7 @@ a { color: white; }
     align-items: flex-end;
     justify-content: center;
     /* height: 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-top: solid aliceblue;
 }
