@@ -357,7 +357,7 @@ a { color: white; }
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 30x;
+    /* padding: 30x; */
     height: 100px;
     font-size: 2em;
     /* color:white; */
@@ -369,8 +369,8 @@ a { color: white; }
 
 .projects-content{
     width: 100%;
-    padding-left: 30px;
-    padding-right: 5px;
+    /* padding-left: 30px; */
+    /* padding-right: 5px; */
     justify-content: space-evenly;
 }
 
